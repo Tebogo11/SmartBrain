@@ -27,7 +27,7 @@ class Registor extends React.Component {
 
   onSubmitSignUp = () => {
     console.log(this.state);
-    fetch("http://localhost:3000/registor", {
+    fetch("https://serene-wave-57385.herokuapp.com/registor", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
